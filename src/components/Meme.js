@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import { exportComponentAsJPEG } from "react-component-export-image";
+import {exportComponentAsJPEG} from "react-component-export-image";
 
 export default function Meme() {
     const [meme, setMeme] = React.useState({
